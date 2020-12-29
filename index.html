@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head> <!-- Head starts here-->
+    <title>Login Page</title>
+	<link rel="stylesheet" href="css/style.css">
+</head> <!-- Head ends here -->
+<body>
+<!--<script type="text/javascript" src="validate.js"></script> -->
+    <div class ="box"> <!-- Div starts here -->
+        <form class="form" style="text-align:center">
+            <h1 align="center">Welcome</h1>
+            <img src="css/user.png" class="pic" alt="user" align="center">
+                <input class="inputfield" placeholder="Username" type="text" id="input">
+                <input class="password" placeholder="Password" type="password" id='password'>
+          <a href="Questionnaire.html"><button align="center" class="btn" type="submit">Log in</button> </a>
+
+        </form> <!--Form ends here-->
+    </div>
+	<script> //Sript starts here
+	        const input = document.querySelector('#input') //javascript along with some jquery
+        const password = document.querySelector('#password')
+        document.querySelector('.form').addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            if (input.value == 'user1' && password.value == 'passAdmin01#') {
+                document.location.href = "Questionnaire.html";
+                alert('Welcome you are now signed in')
+            }
+            else if (input.value == '' || password.value == '') { //To return error that forms are empty
+                alert('Please fill both the fields')
+            }
+            else {
+                alert('Invalid username or passord') //Tp return error that id and password are incorrect
+            }
+        })
+		</script> <!--Script ends here -->
+</body>
+    <footer>
+        <p>Created by Tej, Mohamad & Roger</p>
+    </footer>
+
+</html>

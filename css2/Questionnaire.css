@@ -1,0 +1,75 @@
+					h1 ,input{
+					  
+					  background-image: linear-gradient(to left, violet, indigo, blue, red, blue, red, red); -webkit-background-clip: text;
+					  color: transparent;
+					  text-align: center;
+					  font-family: Candara;
+					}
+					input{
+						width:25%;
+						text-align: left;
+
+
+					}
+					body{
+						background-image:url('ss.jpg');
+						background-size:cover;
+						background-attachment: fixed;
+					    text-align: center;
+						font-family: Candara;
+					}	
+					fieldset{
+					  border: 1px solid rgb(0, 0, 0);
+					  width: 1000px;
+					  background-color: white;
+					  margin:auto;
+					  border: 5px solid black;
+					  border-radius: 25px;
+					  					  
+					}
+					hr{
+						border-top: 3px solid #bbb;
+						border-color: black;
+						
+					}
+					p{
+						text-align:centre;
+					}
+					.m{
+						text-align:left;
+						
+					}
+					.s{
+						width:5%;
+						margin:-60px;						
+					}
+					.w{
+						
+						 margin:70px;
+					}
+
+					.z{
+						text-align:left;
+					}
+
+                    .btn {        text-align: center
+        cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: grey;
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+                    }
+
+                    footer {
+                        font-family: "Comic Sans MS", cursive, sans-serif;
+                        text-align: center;
+                        color: black;
+                        font-size: 20px;
+                        }
